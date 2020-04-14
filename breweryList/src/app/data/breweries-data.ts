@@ -63,4 +63,4 @@ const BREWERIES: IBrewery[] = [
   },
 ];
 
-export { IBrewery };
+export { BREWERIES };
