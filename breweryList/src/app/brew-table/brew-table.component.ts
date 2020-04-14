@@ -28,4 +28,7 @@ export class BrewTableComponent implements OnInit {
     );
     this.dataSource.sort = this.sort;
   }
+  applyFilter(filter: string): void {
+    this.dataSource.filter = filter.trim().toLowerCase();
+  }
 }

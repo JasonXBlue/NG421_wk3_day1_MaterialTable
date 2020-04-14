@@ -6,6 +6,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatTableModule } from '@angular/material/table';
 import { BrewTableComponent } from './brew-table/brew-table.component';
 import { MatSortModule } from '@angular/material/sort';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
 
 @NgModule({
   declarations: [AppComponent, BrewTableComponent],
@@ -14,6 +16,8 @@ import { MatSortModule } from '@angular/material/sort';
     BrowserAnimationsModule,
     MatTableModule,
     MatSortModule,
+    MatInputModule,
+    MatFormFieldModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
