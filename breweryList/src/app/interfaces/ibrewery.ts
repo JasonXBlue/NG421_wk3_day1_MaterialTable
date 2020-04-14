@@ -1,7 +1,7 @@
 export interface IBrewery {
   name: string;
-  foundedDate: string;
-  city: string;
+  foundedDate: Date;
+  cityState: string;
   flagshipBeer: string;
 }
 //
